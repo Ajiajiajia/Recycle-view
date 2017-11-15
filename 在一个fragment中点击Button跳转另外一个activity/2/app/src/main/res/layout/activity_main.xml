@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlayout_menu">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/rlayout_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/rlayout_charge"
+            style="@style/rlayout_piece">
+
+            <ImageView
+                android:id="@+id/img_charge"
+                style="@style/list_bottom_tab"
+                android:background="@drawable/ibtn_charge_selector" />
+            <Button
+                style="@style/ibtn_bottom_text"
+                android:id="@+id/tab_charge"
+                android:text="记账" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/rlayout_capacity"
+            style="@style/rlayout_piece">
+
+            <ImageView
+                android:id="@+id/img_capacity"
+                style="@style/list_bottom_tab"
+                android:background="@drawable/ibtn_capacity_selector"/>
+
+            <Button
+                android:id="@+id/tab_capacity"
+                style="@style/ibtn_bottom_text"
+                android:text="产能"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rlayout_mine"
+            style="@style/rlayout_piece" >
+
+            <ImageView
+                android:id="@+id/img_mine"
+                style="@style/list_bottom_tab"
+                android:background="@drawable/ibtn_mine_selector"
+                 />
+
+            <Button
+                android:id="@+id/tab_mine"
+                style="@style/ibtn_bottom_text"
+                android:text="我的" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+

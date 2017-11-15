@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1在一个activity中点击到另一个activity.iml" filepath="$PROJECT_DIR$/1在一个activity中点击到另一个activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_Monitor.iml" filepath="$PROJECT_DIR$/Test_Monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

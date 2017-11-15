@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--默认时候的图片背景-->
+    <item android:drawable="@drawable/btn_mine_false"/>
+    <!--点击时候图片和字体改变颜色-->
+    <item android:state_selected="true"
+        android:drawable="@drawable/btn_mine_true"
+        />
+    <item android:state_pressed="false"
+        android:drawable="@drawable/btn_mine_false" />
+
+
+
+</selector>
